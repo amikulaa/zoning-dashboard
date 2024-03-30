@@ -16,7 +16,7 @@ zoning-dashboard
 ```
 
 ## 🎬 Demo
-https://github.com/amikulaa/zoning-dashboard/assets/142363956/0efb1081-58a6-4b54-9639-34e127284c78
+https://github.com/amikulaa/zoning-dashboard/assets/142363956/7bd37bde-8fc6-4e0f-b9ed-27a721502a8f
 
 ## Features
 
