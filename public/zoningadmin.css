@@ -1,0 +1,635 @@
+button.permit_buttons:hover{
+	background-color: #ffffff;
+}
+
+button.view_pdf:hover, a.visit_site:hover{
+	background-color: #454545;
+	color: #ffffff;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	position: relative;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    margin: 0;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s
+}
+
+a:focus {
+    outline: none!important
+}
+
+a:hover {
+    text-decoration: none
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+p {
+    margin: 0
+}
+
+ul,li {
+    margin: 0;
+    list-style-type: none
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    display: block;
+    outline: none
+}
+
+textarea:focus,input:focus {
+    border-color: transparent!important
+}
+
+button {
+    outline: none!important;
+    background: 0 0
+}
+
+button:hover {
+    cursor: pointer
+}
+
+iframe {
+    border: none!important
+}
+
+.js-pscroll {
+    position: relative;
+    overflow: hidden
+}
+
+.limiter {
+    width: 1366px;
+    margin: 0 auto
+}
+
+.container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px
+}
+
+.wrap-table100 {
+    width: 1170px
+}
+
+.table100 {
+    background-color: #fff
+}
+
+table {
+    width: 100%
+}
+
+th,td {
+    font-weight: unset;
+    padding-right: 10px
+}
+
+.column1 {
+    width: 35%;
+    padding-left: 40px;
+}
+
+.column1_sm {
+    width: 25%;
+    padding-left: 40px;
+}
+
+.column2 {
+    width: 25%
+}
+
+.column3 {
+    width: 20%
+}
+
+.column4 {
+    width: 10%
+}
+
+.column5 {
+    width: 5%
+}
+
+.column6 {
+    width: 5%
+}
+
+.PAD {
+	margin-bottom: 10px;
+}
+
+.table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+.table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.table100 {
+    position: relative;
+    padding-top: 60px
+}
+
+.table100-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.table100-body {
+    max-height: 585px;
+    overflow: auto
+}
+
+.table100.ver1 th {
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #343A40;
+}
+
+.table100.ver1 td {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: gray;
+    line-height: 1.4
+}
+
+.table100.ver1 .table100-body tr:nth-child(even) {
+    background-color: #f8f6ff
+}
+
+.table100.ver1 {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table100.ver1 .ps__rail-y {
+    right: 5px
+}
+
+.table100.ver1 .ps__rail-y::before {
+    background-color: #ebebeb
+}
+
+.table100.ver1 .ps__rail-y .ps__thumb-y::before {
+    background-color: #ccc
+}
+
+button.view_pdf{
+	border: 1px solid #454545;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 500;
+	color: #333;
+}
+
+button.permit_buttons{
+	border: 1px solid #454545;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 500;
+	color: #333;
+}
+
+button.approval_buttons{
+	border: 1px solid #454545;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 500;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+a.visit_site{
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 500;
+	color: #333;
+	margin: 5px;
+	text-align: center;
+}
+
+input[type="text"].land_use_input, input[type="number"].land_use_input,
+select.land_use_input, input[type="date"].land_use_input, input.land_use_input,
+textarea.land_use_input{
+	width: 100%;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.land_permit_heading{
+    color: #fff;
+    background-color: #343A40;
+	border-radius: 5px;
+}
+
+.ADMIN_EDIT{
+    background-color: #D6E9FF;
+}
+
+button.btn{
+	width: 100%;
+}
+
+#next_button, #back_button{
+	width: 49%;
+	margin-bottom: 5px;
+}
+
+a.button_style{
+	width: 100%;
+	border: 1px solid #454545;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: 700;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#back_lup_button{
+    color: #fff;
+    background-color: #535D65;
+}
+
+#back_lup_button:hover{
+    color: #fff;
+    background-color: #343A40;
+}
+
+#back_button, #next_button, #open_pdf_button, #open_pdf_button2,
+#plot_pdf, #permit_pdf{
+	border: 1px solid #e2e6ea;
+    color: #333;
+    background-color: #e2e6ea;
+}
+
+#back_button:hover, #next_button:hover, #open_pdf_button:hover,
+#open_pdf_button2:hover, #plot_pdf:hover, #permit_pdf:hover{
+    background-color: #C4CBD4;
+}
+
+table#sqlTable {
+    table-layout:fixed;
+}
+
+table#sqlTable td{
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+table#sqlTable tr:hover{
+	background-color: #E2E6EA;
+}
+
+table#sqlTable th.th-xsm{
+	width: 25px;
+}
+
+table#sqlTable th.th-sm{
+	width: 50px;
+}
+
+table#sqlTable th.th-date{
+	width: 75px;
+}
+
+table#sqlTable th.th-md{
+	width: 100px;
+}
+
+table#sqlTable th.th-lg{
+	width: 200px;
+}
+
+#all_permits_div{
+	overflow-x: scroll;
+}
+
+
+fieldset.simple {
+	margin: 35px 10px;
+	padding: 0 10px 10px;
+	border-radius: 8px;
+	padding-top: 10px;
+}
+
+legend.simple {
+	padding: 2px 4px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+fieldset.simple>legend.simple {
+	float: left;
+	margin-top: -35px;
+}
+
+fieldset.simple>legend.simple+* {
+	clear: both;
+}
+
+fieldset.simple {
+	border: 1px solid #212529;
+}
+
+#error_msg_div{
+	width: 100%;
+}
+
+#dashboard_error_msg{
+	width: 100%;
+	border: none;
+}
+
+.btn-simple{
+    background-color: #D6E9FF;
+	width: 100%;
+	border: 1px solid #D6E9FF;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#property_desc_for{
+    background-color: #D6E9FF;
+	width: 100%;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.status{
+    background-color: #D6E9FF;
+}
+
+.bootstrap-select{
+	border-radius: 5px;
+}
+
+.dropdown-toggle{
+    background-color: #D6E9FF;
+	width: 100%;
+	border: 1px solid #D3D3D3;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#status{
+	border: 1px solid #D3D3D3;
+}
+
+#status:focus{
+	outline: none;
+}
+
+#status{
+	height: 35px;
+	font-weight: 700px;
+}
+
+fieldset.status{
+    background-color: #D6E9FF;
+}
+
+.HEAD{
+	text-align: center;
+	padding: 0px;
+	height: 39px;
+	border-radius: 5px;
+	font-weight: 700px;
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 1px solid #343A40;
+    background-color: #343A40;
+}
+
+fieldset.scheduler-border {
+	border: 1px solid #818181;
+	box-shadow: 0 0 10px #818181;
+	border-radius: 5px;
+}
+
+.PADU {
+	margin: 10px 0px 10px 0px;
+}
+
+.color_back{
+	border: 1px solid #F3F5F6;
+    background-color: #F3F5F6;
+	border-radius: 5px;
+	padding: 0px 10px 10px 10px;
+}
+
+
+#top_button {
+	display: block; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 130px; /* Place the button at the bottom of the page */
+	right: 10px;
+	z-index: 99; /* Make sure it does not overlap */
+	font-size: 18px;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+#top_SOME_button {
+	display: block; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 100px; /* Place the button at the bottom of the page */
+	right: 10px;
+	z-index: 99; /* Make sure it does not overlap */
+	font-size: 18px;
+	height: 30px;
+	width: 50px;
+	padding: 5px;
+	text-align: center;
+}
+
+#down_SOME_button {
+	display: block; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 70px; /* Place the button at the bottom of the page */
+	right: 10px;
+	z-index: 99; /* Make sure it does not overlap */
+	font-size: 18px;
+	height: 30px;
+	width: 50px;
+	padding: 5px;
+	text-align: center;
+}
+
+#down_button {
+	display: block; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 10px;
+	z-index: 99; /* Make sure it does not overlap */
+	font-size: 18px;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+#top_button, #top_SOME_button, 
+#down_SOME_button, #down_button{
+	background-color: #E2E6EA;
+	border: 1px solid #343A40;
+	color: #343A40;
+}
+
+#top_button:hover, #top_SOME_button:hover, 
+#down_SOME_button:hover, #down_button:hover{
+	background-color: #343A40;
+	border: 1px solid #343A40;
+	color: #E2E6EA;
+}
+
+button.permit_buttons{
+	background-color: #FFFFFF;
+	color: #343A40;
+}
+
+button.permit_buttons:hover{
+	background-color: #343A40;
+	color: #FFFFFF;
+}
+
+#permit_fees{
+	background-color: #E2E6EA;
+	border: 1px solid #343A40;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+	float: right;
+}
+
+#permit_fees select, #permit_fees input{
+	height: 30px;
+	border-radius: 5px;
+}
